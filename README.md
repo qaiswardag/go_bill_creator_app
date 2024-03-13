@@ -14,15 +14,15 @@ When we say that Go is a statically typed language, it means that variables must
 
 Go is a compiled language and JavaScript is an interpreted language.
 
-### Compiled language (Go):
+### Compiled language (Go)
 
-Compilation: Go source code is typically compiled into machine code. The Go compiler (go command) translates Go source code into machine code, producing an executable binary file that can be run directly by the target machine's processor.
+Compilation, Go source code is typically compiled into machine code. The Go compiler (go command) translates Go source code into machine code, producing an executable binary file that can be run directly by the target machine's processor.
 
 In Go, the source code is translated into machine code, specific to the target platform (like Windows, Linux, or macOS), before execution. This translation is done by the Go compiler (go command) into an executable binary file.
 This binary file contains instructions that the computer's processor can directly execute, making it generally faster than interpreted languages.
 Compilation typically happens before the program is executed, and the resulting binary can be run independently without needing the source code or the compiler.
 
-### Interpreted language (JavaScript):
+### Interpreted language (JavaScript)
 
 First, the code is transpiled using babel or any other web pack.
 
@@ -38,17 +38,17 @@ In JavaScript, the source code is read and executed line by line by an interpret
 The JavaScript engine translates the JavaScript code into machine code or bytecode on-the-fly during execution.
 There is no separate compilation step, and the code is executed directly from the source files each time it runs.
 
-### The key differences between these approaches are:
+### The key differences between these approaches are
 
-### Performance:
+### Performance
 
 Compiled languages tend to have better performance since the translation to machine code happens beforehand, and there's no need for interpretation during runtime.
 
-### Portability:
+### Portability
 
 Interpreted languages can be more portable because the source code can run on any platform with the appropriate interpreter or runtime environment. Compiled languages may need recompilation for different platforms.
 
-### Debugging:
+### Debugging
 
 Debugging compiled languages might be more challenging because the compiled binary might not contain all the debugging information available in the source code. Interpreted languages typically offer easier debugging since you can inspect the source code directly during runtime.
 
