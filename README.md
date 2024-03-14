@@ -14,23 +14,24 @@ When we say that Go is a statically typed language, it means that variables must
 
 Go is a compiled language and JavaScript is an interpreted language.
 
-### Run code Compiled languages vs Interpreted language
+# Compiled and Interpreted language
 
-So, we need to get the source code like Go or JavaScript converted into machine code somehow before it can run on the computer.
+When getting the source code like Go or JavaScript converted into machine code somehow before it can run on the computer.
+So, let's have a simple scenario, let's say it's just you and me. You have your computer, and I have my computer, and you're going to write a program that you want me to run.
 
-### There are two main ways of doing this:
-
-what's called compiling the source code and what's called interpreting the source code.
-
-So, let's have a simple scenario: let's say it's just you and me. You have your computer, and I have my computer, and you're going to write a program that you want me to run.
-
-### Compiled language
+### Compiled language (Go)
 
 Now, with a compiled language, what happens is you write your source code, and then you have a program called a compiler that will go through that source code and create a separate file that contains the machine code, and you just give me that file.
 
 This end result is sometimes referred to as an executable or an executive file because I can directly execute it. I can now just run your program; you keep your source code, and I never see it.
 
-### Interpreted language
+Compilation, Go source code is typically compiled into machine code. The Go compiler (go command) translates Go source code into machine code, producing an executable binary file that can be run directly by the target machine's processor.
+
+In Go, the source code is translated into machine code, specific to the target platform (like Windows, Linux, or macOS), before execution. This translation is done by the Go compiler (go command) into an executable binary file.
+This binary file contains instructions that the computer's processor can directly execute, making it generally faster than interpreted languages.
+Compilation typically happens before the program is executed, and the resulting binary can be run independently without needing the source code or the compiler.
+
+### Interpreted language (JavaScript)
 
 Now, with an interpreted language, on the other hand, you don't compile your source code beforehand.
 
@@ -42,17 +43,31 @@ It does not save it as a separate machine code file.
 
 Whenever you've looked at a webpage with JavaScript, the JavaScript has been sent to you over the web as source code onto your machine, and your web browser has just interpreted that JavaScript so it can run that code.
 
+First, the code is transpiled using babel or any other web pack.
+
+This form of code is given to the Engine which converts it to AST(Abstract Syntax Tree).
+
+This AST is then converted to the byte code which is understood by the machine. This is an Intermediate Representation(IR) which is further optimized by the JIT compiler.
+
+After the optimization, the JS Virtual Machine Executes the code.
+
+Hence we can conclude that JS code is executed in three phases.
+
+In JavaScript, the source code is read and executed line by line by an interpreter within a runtime environment, typically a web browser or a server-side JavaScript engine like Node.js.
+The JavaScript engine translates the JavaScript code into machine code or bytecode on-the-fly during execution.
+There is no separate compilation step, and the code is executed directly from the source files each time it runs.
+
 ### So, which one's best?
 
-### Compiled language
+### Compiled language (Go)
 
-Benefits of compiled code: once it's compiled, it's immediately ready to run, and you could send it to a hundred or a thousand or a hundred thousand different people; it's ready to go. It can be optimized for a CPU, so it can actually be faster, and you don't have to send your source code to everybody, which might be a good thing.
+Benefits of compiled code, once it's compiled, it's immediately ready to run, and you could send it to a hundred or a thousand or a hundred thousand different people; it's ready to go. It can be optimized for a CPU, so it can actually be faster, and you don't have to send your source code to everybody, which might be a good thing.
 
 However, the downsides are if I compile it on a PC, that executable file won't work on a Mac.
 In fact, it often needs to be compiled separately for different kinds of CPUs.
 And when you're writing code to compile, it's an extra step that you have to take every time you want to test your program.
 
-### Interpreted language
+### Interpreted language (JavaScript)
 
 Now, with interpreted code, the big benefits are I don't really care what kind of machine is on the other end because we don't provide machine code; we just send the source code, and we let the other side take care of it, so it can be more portable and more flexible across platforms.
 
@@ -78,31 +93,7 @@ But more usually, you're driven more by what you need to do.
 
 Do you need to build iPhone apps or Windows desktop apps or dynamic websites, or in our case, just learn the fundamentals of programming, and you let that decision drive the language choice, and the language choice will determine whether you're compiled, interpreted, or somewhere in the middle.
 
-### Compiled language (Go)
-
-Compilation, Go source code is typically compiled into machine code. The Go compiler (go command) translates Go source code into machine code, producing an executable binary file that can be run directly by the target machine's processor.
-
-In Go, the source code is translated into machine code, specific to the target platform (like Windows, Linux, or macOS), before execution. This translation is done by the Go compiler (go command) into an executable binary file.
-This binary file contains instructions that the computer's processor can directly execute, making it generally faster than interpreted languages.
-Compilation typically happens before the program is executed, and the resulting binary can be run independently without needing the source code or the compiler.
-
-### Interpreted language (JavaScript)
-
-First, the code is transpiled using babel or any other web pack.
-
-This form of code is given to the Engine which converts it to AST(Abstract Syntax Tree).
-
-This AST is then converted to the byte code which is understood by the machine. This is an Intermediate Representation(IR) which is further optimized by the JIT compiler.
-
-After the optimization, the JS Virtual Machine Executes the code.
-
-Hence we can conclude that JS code is executed in three phases.
-
-In JavaScript, the source code is read and executed line by line by an interpreter within a runtime environment, typically a web browser or a server-side JavaScript engine like Node.js.
-The JavaScript engine translates the JavaScript code into machine code or bytecode on-the-fly during execution.
-There is no separate compilation step, and the code is executed directly from the source files each time it runs.
-
-### The key differences between these approaches are
+### Key differences
 
 ### Performance
 
