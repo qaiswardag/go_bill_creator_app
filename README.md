@@ -16,7 +16,7 @@ Go is a compiled language and JavaScript is an interpreted language.
 
 To run a compiled file called `description` you might just type `./description` To run an interpreted Python program, you might have to type `./python ./description.py` That's because the first one is a compiled binary, consisting of just ones and zeros that your machine knows how to execute. In the second example, 'text editor.py' is just a file of Python source code, so it needs access to the Python interpreter.
 
-### Compiled language (Go)
+### Compiled languages (Go, Java, Rust, C# or C++)
 
 Compiled programs do not rely on any other programs to be able to run. They're usually written in a language like C, Rust, or Go, but are then compiled down to binary, the raw language of your computer's hardware.
 
@@ -32,7 +32,7 @@ This binary file contains instructions that the computer's processor can directl
 
 Compilation typically happens before the program is executed, and the resulting binary can be run independently without needing the source code or the compiler.
 
-### Interpreted language (JavaScript or PHP)
+### Interpreted languages (JavaScript, Ruby, Python or PHP)
 
 Now, with an interpreted language, on the other hand, you don't compile your source code beforehand.
 
