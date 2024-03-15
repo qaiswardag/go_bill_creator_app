@@ -1,9 +1,9 @@
 package main
 
 import (
-	"go_mini_apps/entry"
+	"go_mini_apps/playground"
 )
 
 func main(){
-	entry.Entry()	
+	playground.Playground()	
 }

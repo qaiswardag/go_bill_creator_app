@@ -8,7 +8,7 @@ import (
 // bits & memory
 // https://pkg.go.dev/builtin
 
-func Entry() string {
+func Playground() {
 
 	// strings
 	// strings
@@ -150,6 +150,5 @@ func Entry() string {
 
 	fmt.Println(stringToArray)
 
-return "hii"
 
 }
