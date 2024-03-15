@@ -1,9 +1,5 @@
 package main
 
-import (
-	"go_mini_apps/playground"
-)
+func main() {
 
-func main(){
-	playground.Explore()	
 }
