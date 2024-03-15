@@ -20,6 +20,10 @@ func Explore() {
 	// fmt.Println(nameOne, nameTwo, nameThree)
 
 
+	//
+	//
+	//
+	//
 	// numbers integers & bit size
 	// numbers integers & bit size
 	// numbers integers & bit size
@@ -38,7 +42,10 @@ func Explore() {
 
 	// fmt.Println(numberOne, numberTwo, numberThree, numberFour)
 	
-	
+	//
+	//
+	//
+	//
 	// floating number & bit size
 	// floating number & bit size
 	// floating number & bit size
@@ -56,7 +63,10 @@ func Explore() {
 	
 	// fmt.Println(numberOne, numberTwo, scoreThree)
 
-
+//
+//
+//
+//
 	// Printing & Formatting Strings
 	// Printing & Formatting Strings
 	// Printing & Formatting Strings
@@ -75,7 +85,6 @@ func Explore() {
 	// // formatted strings
 	// fmt.Printf("hello world I have lived in %v, %v for %v \n", country, city, years);
 
-	//
 	//
 	//
 	//
@@ -154,9 +163,6 @@ func Explore() {
 	// private function
 	// private function
 	// printString("Hello world");
-
-
-
 	//
 	//
 	//
@@ -179,4 +185,57 @@ func Explore() {
 	// for index, value := range planetNames{
 	// 	fmt.Println("the position at index", index, value)
 	// }
+
+	// for _, value := range planetNames{
+	// 	fmt.Println("the value is", value)
+	// }
+	//
+	//
+	//
+	//
+	// Booleans & Conditionals
+	// Booleans & Conditionals
+	// Booleans & Conditionals
+	// Booleans & Conditionals
+	// var planetNamesOne = []string{"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"}
+
+	// if slices.Contains(planetNamesOne, "Saturnn"){
+	// println("Array contains planet")
+	// }
+	// if !slices.Contains(planetNamesOne, "Saturnn"){
+	// println("Array do not contains planet")
+	// }
+
+
+	// var planetNamesTwo = [8]string{"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"}
+
+	//    // initialize a variable of data type int
+	// 	 var element string = "Venus"
+	// 	 fmt.Println("The element to check = ",element)
+		 
+	// 	 // initialize a datatype of Boolean and define it to false
+	// 	 var result bool = false
+
+	//    // iterate over the array using for loop and break if values match
+	// 	 for i := 0;
+	// 	 i < len(planetNamesTwo);
+	// 	 i++ {
+	// 			// checking if the array contains the given value
+	// 			if planetNamesTwo[i] == element {
+	// 			// changing the boolean variable
+	// 						result = true
+	// 						break
+	// 				 }
+	// 			}
+				
+	// 			// printing the final result
+	// 			if result {
+	// 				 fmt.Println("Planets", planetNamesTwo, "Contains the given Value", element)
+	// 			} else {
+	// 				 fmt.Println("Planets", planetNamesTwo, "does not Contains the given Value", element)
+	// 			}
+	//
+	//
+	//
+	//
 }
