@@ -7,6 +7,10 @@ package playground
 // bits & memory
 // https://pkg.go.dev/builtin
 
+// func swap(x, y string) (string, string) {
+// 	return x, y
+// }
+
 func Explore() {
 
 	// strings
@@ -238,4 +242,12 @@ func Explore() {
 	//
 	//
 	//
+	// Multiple Return Values
+	// Multiple Return Values
+	// Multiple Return Values
+	// Multiple Return Values
+	
+		// a, b := swap("hello", "world")
+		// fmt.Println(a, b)
+	
 }
