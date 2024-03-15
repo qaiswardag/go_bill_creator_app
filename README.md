@@ -76,5 +76,3 @@ Interpreted languages can be more portable because the source code can run on an
 ### Debugging
 
 Debugging compiled languages might be more challenging because the compiled binary might not contain all the debugging information available in the source code. Interpreted languages typically offer easier debugging since you can inspect the source code directly during runtime.
-
-# Why Go

@@ -1,13 +1,9 @@
 package playground
 
-import (
-	"fmt"
-)
-
 // private function
-func printString (stringText string){
-	fmt.Println(stringText)
-}
+// func printString (stringText string)  {
+// fmt.Println(stringText)
+// }
 // bits & memory
 // https://pkg.go.dev/builtin
 
@@ -169,4 +165,18 @@ func Explore() {
 	// Lops
 	// Lops
 	// Lops
+	// var array = [9]int{1,2,3,4,5,6,7,8,9}
+
+	// x := 0
+	// for  x < len(array){
+	// 	fmt.Println("Value of x", x) 
+	// 	x++
+	// }
+
+	// for range loop
+	// var planetNames = [8]string{"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"}
+
+	// for index, value := range planetNames{
+	// 	fmt.Println("the position at index", index, value)
+	// }
 }
