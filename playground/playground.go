@@ -2,9 +2,12 @@ package playground
 
 import (
 	"fmt"
-	"strings"
 )
 
+// private function
+func printString (stringText string){
+	fmt.Println(stringText)
+}
 // bits & memory
 // https://pkg.go.dev/builtin
 
@@ -144,11 +147,26 @@ func Explore() {
 	//
 	// Split string to Array
 	// Split string to Array
-	hello := "Hello world how are you doing"
+	// hello := "Hello world how are you doing"
 
-	stringToArray := strings.Split(hello, " ")
+	// stringToArray := strings.Split(hello, " ")
 
-	fmt.Println(stringToArray)
+	// fmt.Println(stringToArray)
+
+	// private function
+	// private function
+	// private function
+	// private function
+	// printString("Hello world");
 
 
+
+	//
+	//
+	//
+	//
+	// Lops
+	// Lops
+	// Lops
+	// Lops
 }
