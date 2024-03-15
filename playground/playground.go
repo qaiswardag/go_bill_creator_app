@@ -8,7 +8,7 @@ import (
 // bits & memory
 // https://pkg.go.dev/builtin
 
-func Playground() {
+func Explore() {
 
 	// strings
 	// strings

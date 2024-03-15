@@ -5,5 +5,5 @@ import (
 )
 
 func main(){
-	playground.Playground()	
+	playground.Explore()	
 }
