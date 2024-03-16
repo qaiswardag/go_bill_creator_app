@@ -9,7 +9,7 @@ This is a simple Go application that allows users to create and save bills as fi
 - Save bills as files for easy access and reference.
 - Simple and intuitive command-line interface.
 
-## Getting Started
+# Getting Started
 
 To get started with the Go application, follow these steps:
 
