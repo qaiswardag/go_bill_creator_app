@@ -18,3 +18,19 @@ To get started with the Go application, follow these steps:
    ```bash
    git clone https://github.com/qaiswardag/go_mini_apps.git
    ```
+
+Navigate to the Project Directory: Change into the newly cloned directory.
+
+bash
+Copy code
+cd go_mini_apps
+Build the Application: Build the Go application to generate the executable file.
+
+go
+Copy code
+go build
+Run the Application: Execute the generated executable file to run the application.
+
+bash
+Copy code
+./go_mini_apps
