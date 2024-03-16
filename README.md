@@ -11,26 +11,10 @@ This is a simple Go application that allows users to create and save bills as fi
 
 # Getting Started
 
-To get started with the Go application, follow these steps:
+To get started with the Go application, follow below step:
 
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/qaiswardag/go_mini_apps.git
-   ```
-
-Navigate to the Project Directory: Change into the newly cloned directory.
+Clone the repository to your local machine:
 
 ```bash
-cd go_mini_apps
-Build the Application: Build the Go application to generate the executable file.
+git clone https://github.com/qaiswardag/go_mini_apps.git
 ```
-
-```bash
-go build
-```
-
-````bash
-./go_mini_apps
-```bash
-````
