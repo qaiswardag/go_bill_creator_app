@@ -1,20 +1,17 @@
-# Go Mini Project
+# Go Bill Creator
 
-Welcome to the Go Mini Project repository! This repository is dedicated to creating various small mini applications using Go programming language. Whether you're new to Go or an experienced developer, this project aims to provide a collection of simple yet practical examples to help you learn and explore different aspects of Go programming.
+Welcome to the Go Bill Creator repository! This repository is dedicated to creating a small Bill Creator application using the Go programming language.
+This is a simple Go application that allows users to create and save bills as files based on their input.
 
-## About the Project
+# Features
 
-The Go Mini Project is an open-source initiative aimed at promoting learning and collaboration in the Go community. The project consists of a collection of small mini apps, each focusing on a specific concept, feature, or use case of Go programming. These mini apps are designed to be simple, easy to understand, and serve as practical examples for Go developers of all skill levels.
-
-## Features
-
-- **Diverse Mini Apps**: Explore a variety of mini applications covering different topics such as web development, concurrency, file handling, networking, and more.
-- **Practical Examples**: Each mini app is accompanied by clear explanations and comments to help you understand the underlying concepts and how they are implemented in Go.
-- **Open Source**: The project is open-source, which means you can contribute your own mini apps, suggest improvements, report issues, and collaborate with other developers.
+- Create bills with customizable details such as item names, quantities, prices, etc.
+- Save bills as files for easy access and reference.
+- Simple and intuitive command-line interface.
 
 ## Getting Started
 
-To get started with the Go Mini Project, follow these steps:
+To get started with the Go application, follow these steps:
 
 1. Clone the repository to your local machine:
 
