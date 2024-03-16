@@ -21,16 +21,16 @@ To get started with the Go application, follow these steps:
 
 Navigate to the Project Directory: Change into the newly cloned directory.
 
-bash
-Copy code
+```bash
 cd go_mini_apps
 Build the Application: Build the Go application to generate the executable file.
+```
 
-go
-Copy code
+```bash
 go build
-Run the Application: Execute the generated executable file to run the application.
+```
 
-bash
-Copy code
+````bash
 ./go_mini_apps
+```bash
+````
