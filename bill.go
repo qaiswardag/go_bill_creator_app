@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 type bill struct {
 	name  string
@@ -51,4 +54,23 @@ func (b *bill) updateTip(tip float64) {
 // add an item to bill
 func (b *bill) addItem(name string, price float64) {
 	b.items[name] = price
+}
+
+func (b *bill) save() {
+	data := []byte(b.formatBill())
+	// Create the bills directory if it doesn't exist
+	errFolder := os.MkdirAll("./bills", 0755)
+	if errFolder != nil {
+		fmt.Println("Unable to create bills directory!")
+		panic(errFolder)
+	}
+
+	// Write the bill to a file
+	errWriteFile := os.WriteFile("./bills/"+b.name+".txt", data, 0755)
+	if errWriteFile != nil {
+		fmt.Println("Unable to save bill as file!")
+		panic(errWriteFile)
+	}
+
+	fmt.Println("Bill was saved to file")
 }
